@@ -1,5 +1,6 @@
 #!/bin/bash
 set -e
+cd /root/gitdata/Orabot
 
 git add -A
 commit_msg=${1:-"Auto-commit on $(date '+%Y-%m-%d %H:%M:%S')"}
